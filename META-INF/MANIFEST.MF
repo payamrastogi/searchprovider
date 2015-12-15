@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Search Provider
+Bundle-SymbolicName: searchprovider;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: codeandme.blogspot.com
+Require-Bundle: org.eclipse.search,
+ org.eclipse.jface,
+ org.eclipse.equinox.registry,
+ org.eclipse.ui,
+ org.eclipse.jdt.core;bundle-version="3.11.1"
