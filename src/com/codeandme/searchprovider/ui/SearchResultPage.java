@@ -87,7 +87,6 @@ public class SearchResultPage extends AbstractTextSearchViewPage implements ISea
 	public void createControl(Composite parent) 
 	{
 		fRootControl = new Composite(parent, SWT.NULL);
-		fRootControl.setLayout(new FillLayout(SWT.HORIZONTAL));
 		
 		ftext = new Text(fRootControl, SWT.BORDER | SWT.READ_ONLY | SWT.H_SCROLL | SWT.V_SCROLL | SWT.CANCEL | SWT.MULTI);
 	}
